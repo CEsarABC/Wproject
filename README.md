@@ -66,7 +66,7 @@ github, git bash, pycharm.
 
 - the inplementation of github pages was just posible by creating a new repository and uploading the project files.
 
-* https://cesarabc.github.io/gitProjectPage/index.html project visualization from a new repository.
+* https://cesarabc.github.io/Wproject/index.html project visualization from a new repository.
 
 
 # Acknowledgements
