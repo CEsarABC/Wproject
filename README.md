@@ -74,8 +74,11 @@ github
 * https://cesarabc.github.io/gitProjectPage/index.html project visualization from a new repository.
 
 
-** Acknowledgements
+# Acknowledgements
 
-    thanks to the code institute for giving me the opportunity to learn.
+thanks to the code institute for giving me the opportunity to learn.
+  
+the code it's been writen taking examples from different internet tutorials and using mostly as guide the code academy exercises for my development.
+
 
 
