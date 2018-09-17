@@ -13,9 +13,6 @@ the calls of json files in which the json file is an array filled with objects, 
 
 *I decided to use my array of objects to be the base of my graphs
 
-* the concept and company came last to the development of the arrays, the first group was created with a group of women and later on the Disney store idea came as context to the graphs, the group of women was replaced by a mixed group of employees to which I added later on the job tittle.
-
-
 # UX
 
 This one page project was developed base on the creation of a complex system to create a data base using arrays, the idea was to show in a single page the different ways to show the data in graphs for comparison. A fast and reliable tool to access basic information on salaries and employees.
@@ -28,13 +25,13 @@ the concept and company came last to the development of the arrays, the first gr
 
 **Technologies Used
 
-HTML5
-CSS
-Bootstrap
-Jquery
-DC, D3 and Crossfilter
-JavaScript
-github
+HTML5,
+CSS,
+Bootstrap,
+Jquery,
+DC, D3 and Crossfilter,
+JavaScript,
+github.
 
 
 # Testing
