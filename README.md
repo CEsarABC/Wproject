@@ -56,15 +56,13 @@ github, git bash, pycharm.
 
 - the project was divided into html, css, js, modules, folders and files in order to organise the project.
 
-*all dc grahps are shown in the file https://github.com/CEsarABC/Composite-Graphs/tree/master/Wproject/compositeProject.html
-
-*the JS file holding the java scripts is https://github.com/CEsarABC/Composite-Graphs/tree/master/Wproject/cleanGraphs.js
+*the JS file with the graphs is https://github.com/CEsarABC/Wproject/cleangraphs.js
 
 *all modules used in the document are stored locally in the folder jsModules
 
 - the integration of github came later in the development and the master repository was created on my study folder which contains the project folder. the use of github pages became dificult as I couldn't set the page to a particular folder.
 
-- main repository https://github.com/CEsarABC/Composite-Graphs/tree/master/Wproject
+- main repository https://github.com/CEsarABC/Wproject
 
 - the inplementation of github pages was just posible by creating a new repository and uploading the project files.
 
