@@ -56,7 +56,7 @@ github, git bash, pycharm.
 
 - the project was divided into html, css, js, modules, folders and files in order to organise the project.
 
-*the JS file with the graphs is https://github.com/CEsarABC/Wproject/cleangraphs.js
+*the JS file with the graphs is https://github.com/CEsarABC/Wproject/cleanGraphs.js
 
 *all modules used in the document are stored locally in the folder jsModules
 
