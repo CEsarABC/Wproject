@@ -13,9 +13,6 @@ the calls of json files in which the json file is an array filled with objects, 
 
 *I decided to use my array of objects to be the base of my graphs
 
-* the concept and company came last to the development of the arrays, the first group was created with a group of women and later on the Disney store idea came as context to the graphs, the group of women was replaced by a mixed group of employees to which I added later on the job tittle.
-
-
 # UX
 
 This one page project was developed base on the creation of a complex system to create a data base using arrays, the idea was to show in a single page the different ways to show the data in graphs for comparison. A fast and reliable tool to access basic information on salaries and employees.
@@ -28,13 +25,13 @@ the concept and company came last to the development of the arrays, the first gr
 
 **Technologies Used
 
-HTML5
-CSS
-Bootstrap
-Jquery
-DC, D3 and Crossfilter
-JavaScript
-github
+HTML5,
+CSS,
+Bootstrap,
+Jquery,
+DC, D3 and Crossfilter,
+JavaScript,
+github, git bash, pycharm.
 
 
 # Testing
@@ -59,23 +56,27 @@ github
 
 - the project was divided into html, css, js, modules, folders and files in order to organise the project.
 
-*all dc grahps are shown in the file https://github.com/CEsarABC/Composite-Graphs/tree/master/Wproject/compositeProject.html
-
-*the JS file holding the java scripts is https://github.com/CEsarABC/Composite-Graphs/tree/master/Wproject/cleanGraphs.js
+*the JS file with the graphs is https://github.com/CEsarABC/Wproject/blob/master/cleanGraphs.js
 
 *all modules used in the document are stored locally in the folder jsModules
 
 - the integration of github came later in the development and the master repository was created on my study folder which contains the project folder. the use of github pages became dificult as I couldn't set the page to a particular folder.
 
-- main repository https://github.com/CEsarABC/Composite-Graphs/tree/master/Wproject
+- main repository https://github.com/CEsarABC/Wproject
 
 - the inplementation of github pages was just posible by creating a new repository and uploading the project files.
 
-* https://cesarabc.github.io/gitProjectPage/index.html project visualization from a new repository.
+* https://cesarabc.github.io/Wproject/index.html project visualization from a new repository.
 
 
-** Acknowledgements
+# Acknowledgements
 
-    thanks to the code institute for giving me the opportunity to learn.
+thanks to the code institute for giving me the opportunity to learn.
+
+thanks to my tutor Victor Miclovichfor the support and the guide
+
+the code it's been writen taking examples from different internet tutorials and using mostly as guide the code academy exercises for my development.
+
+
 
 
