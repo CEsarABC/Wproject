@@ -77,8 +77,11 @@ github
 # Acknowledgements
 
 thanks to the code institute for giving me the opportunity to learn.
-  
+
+thanks to my tutor Victor Miclovichfor the support and the guide
+
 the code it's been writen taking examples from different internet tutorials and using mostly as guide the code academy exercises for my development.
+
 
 
 
