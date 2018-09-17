@@ -31,7 +31,7 @@ Bootstrap,
 Jquery,
 DC, D3 and Crossfilter,
 JavaScript,
-github.
+github, git bash, pycharm.
 
 
 # Testing
