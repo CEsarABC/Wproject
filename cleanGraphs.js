@@ -190,14 +190,14 @@ function crossFilter() {
     var ndx = crossfilter(woman);
 
     var name_dim = ndx.dimension(dc.pluck('name_p'));
-    var total_spend_per_person = name_dim.group().reduceSum(dc.pluck('salary_p'));
+    var salary_per_person = name_dim.group().reduceSum(dc.pluck('salary_p'));
 
     dc.barChart('#per-person-chart')
         .width(800)
         .height(300)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(name_dim)
-        .group(total_spend_per_person)
+        .group(salary_per_person)
         .transitionDuration(1000)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
@@ -206,14 +206,14 @@ function crossFilter() {
 
 
     var store_dim = ndx.dimension(dc.pluck('age_p'));
-    var total_spend_per_store = store_dim.group().reduceSum(dc.pluck('salary_p'));
+    var salary_per_person1 = store_dim.group().reduceSum(dc.pluck('salary_p'));
 
     dc.barChart("#per-store-chart")
         .width(800)
         .height(300)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(store_dim)
-        .group(total_spend_per_store)
+        .group(salary_per_person1)
         .transitionDuration(1000)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
@@ -221,14 +221,14 @@ function crossFilter() {
         .yAxis().ticks(10);
 
     var state_dim = ndx.dimension(dc.pluck('town_p'));
-    var total_spend_per_state = state_dim.group().reduceSum(dc.pluck('salary_p'));
+    var salary_per_person2 = state_dim.group().reduceSum(dc.pluck('salary_p'));
 
     dc.barChart('#per-state-chart')
         .width(800)
         .height(300)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(state_dim)
-        .group(total_spend_per_state)
+        .group(salary_per_person2)
         .transitionDuration(1000)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
@@ -254,13 +254,13 @@ function pieChartsWoman() {
             .group(total_salary_per_person);
 
         var town_dim = ndx.dimension(dc.pluck('town_p'));
-        var total_spend_per_store = town_dim.group().reduceSum(dc.pluck('salary_p'));
+        var salary_per_person3 = town_dim.group().reduceSum(dc.pluck('salary_p'));
         dc.pieChart('#draw-pies2')
             .height(250)
             .radius(100)
             .transitionDuration(1500)
             .dimension(town_dim)
-            .group(total_spend_per_store);
+            .group(salary_per_person3);
 
         var age_dim = ndx.dimension(dc.pluck('name_p'));
         var total_age_per_town = age_dim.group().reduceSum(dc.pluck('age_p'));
@@ -280,21 +280,21 @@ function stackedGraphs() {
 
         var name_dim = ndx.dimension(dc.pluck('name_p'));
 
-        var spendByNameStoreA = name_dim.group().reduceSum(function (d) {
+        var staffByNameLondon = name_dim.group().reduceSum(function (d) {
                 if (d.town_p === 'London') {
                     return +d.salary_p;
                 } else {
                     return 0;
                 }
             });
-        var spendByNameStoreB = name_dim.group().reduceSum(function (d) {
+        var staffByNameLiverpool = name_dim.group().reduceSum(function (d) {
                 if (d.town_p === 'Liverpool') {
                     return +d.salary_p;
                 } else {
                     return 0;
                 }
             });
-        var spendByNameStoreC = name_dim.group().reduceSum(function (d) {
+        var staffByNameManchester = name_dim.group().reduceSum(function (d) {
                 if (d.town_p === 'Manchester') {
                     return +d.salary_p;
                 } else {
@@ -307,9 +307,9 @@ function stackedGraphs() {
             .width(800)
             .height(400)
             .dimension(name_dim)
-            .group(spendByNameStoreA, "London")
-            .stack(spendByNameStoreB, "Liverpool")
-            .stack(spendByNameStoreC, "Manchester")
+            .group(staffByNameLondon, "London")
+            .stack(staffByNameLiverpool, "Liverpool")
+            .stack(staffByNameManchester, "Manchester")
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
             .legend(dc.legend().x(720).y(0).itemHeight(15).gap(5));
