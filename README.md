@@ -3,21 +3,24 @@
  # Project name: Composite Graphs
  Composite Graphs Project, from local repository
  
-****I wanted to have a json file I could modify at any given time, by adding info in it.
-my first idea was to create a function to create a json file containing the info I wanted, without having to type every value
-for every object and be able to add new values if I wanted. 
-the creation of the json file was not a success, but I created an array of objects which is very similar to
-the calls of json files in which the json file is an array filled with objects, so I decided to use this array as my data and it worked as having the jason file parsed and ready to work.
+My project was based on my interest in functions and the way we can create many things and create code that can create other code, to be honest my first idea was to create a Json file by uniting diferent data bases. It proved to be challenging but in the long proccess in which I didn't give up, other options came to ligth.
+ the creation of the json file was not a success, but I created an array of objects which is very similar to
+the parsing of json files in which the json file is an array filled with objects, so I decided to use this array as my data and it worked as having the jason file parsed and ready to work.
+
+Just when I was able to create my own data base I started to work with the Data to create the graphs and test them with a simple array of people. slowly I added more variables and information to my array of objects.
+the concept and visual desing came just at last when I was sure my main objective (the hard coding) was working properly.
+ 
 
 ** it is great to be able to to create my own objects with arrays which a can change any time, even adding new arrays, which will become values for every object, as a new programmer this gives lots of ideas, like creating data bases with user inputs.
 
-*I decided to use my array of objects to be the base of my graphs
 
 # UX
 
-This one page project was developed base on the creation of a complex system to create a data base using arrays, the idea was to show in a single page the different ways to show the data in graphs for comparison. A fast and reliable tool to access basic information on salaries and employees.
+the concept is to show in a single page the different ways to show the data in graphs for comparison. A fast and reliable tool to access basic information on salaries and employees.
 
-the structure of the page is based on single page where tabs and modals are bringing the extra content.
+the page was developed as a tool to show employees details for this particular store, which means to be updated frecuently.
+
+the structure of the page is based on a single page where tabs and modals are bringing the extra content. the tabs were used in order to present the information fast and in order to organise the way the user is introduced to the information.
 
 the concept and company came last to the development of the arrays, the first group was created with a group of women and later on the Disney store idea came as context to the graphs, the group of women was replaced by a mixed group of employees to which I added later on the job tittle.
 
