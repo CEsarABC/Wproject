@@ -26,7 +26,7 @@ the concept and company came last to the development of the arrays, the first gr
 
 
 
-**Technologies Used
+#Technologies Used
 
 HTML5,
 CSS,
@@ -47,11 +47,11 @@ github, git bash, pycharm.
 
 - the challenge came first creating the array of objects in which loops and methods had to work perfectly to create my array of objects.
 
-- the second challenge was to use this array of objects on the DC and D3 frameworks in which I decided to omit the parsing of a json file and work directly with the new objects array. 
+- the second challenge was to use this array of objects on the DC and D3 modules in which I decided to omit the parsing of a json file and work directly with the new objects array.
 
 - the main Js file is  https://github.com/CEsarABC/Wproject/blob/master/cleanGraphs.js
 
-- once all graphics scripts were working properly the visual design of the page started by using adobe illustrator to create a simple but organised design, bootstrap elements and media queries were used to maintain the look of the page in different formats.
+- once all graphics scripts were working properly the visual design of the page started by using adobe illustrator to create a simple but organised Mockup, bootstrap elements and media queries were used to maintain the look of the page in different formats.
 
 - the media queries were set base on the DC and D3 modules. set to a minimum resolution of 992px in order to keep the content and graphs stable. tested in tablets and phones.
 
@@ -79,7 +79,7 @@ this was corrected at last with help of my tutor.
 
 thanks to the code institute for giving me the opportunity to learn.
 
-thanks to my tutor Victor Miclovichfor the support and the guide
+thanks to my tutor Victor Miclovich for the support and the guide
 
 the code it's been writen taking examples from different internet tutorials and using mostly as guide the code academy exercises for my development.
 
