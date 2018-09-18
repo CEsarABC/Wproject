@@ -46,11 +46,11 @@ github, git bash, pycharm.
 
 - the second challenge was to use this array of objects on the DC and D3 frameworks in which I decided to ommit the parsing of a json file and work directly with the new objects array. 
 
-- the main Js file is  https://github.com/CEsarABC/Composite-Graphs/tree/master/Wproject/cleanGraphs.js
+- the main Js file is  https://github.com/CEsarABC/Wproject/blob/master/cleanGraphs.js
 
-- once all graphics were working properly the visual desing of the page started by using bootstrap elements and media queries
+- once all graphics scripts were working properly the visual desing of the page started by using adobe illustrator to create a simple but organised desing, bootstrap elements and media queries were used to mantain the look of the page in diferent formats.
 
-- the media queries were set base on the DC and D3 modules. set to a minimun resolution of 992px in order to keep the content and graphs stable. tested in tablet and phones.
+- the media queries were set base on the DC and D3 modules. set to a minimun resolution of 992px in order to keep the content and graphs stable. tested in tablets and phones.
 
 - I created multiple test files for java testing and HTML testing git was used in Pycharm software as version control for all my changes.
 
@@ -62,11 +62,14 @@ github, git bash, pycharm.
 
 - the integration of github came later in the development and the master repository was created on my study folder which contains the project folder. the use of github pages became dificult as I couldn't set the page to a particular folder.
 
+- using git hub was challenging as by mistake I created my repository in my study folder and not in the project folder,
+this was corrected at last with help of my tutor.
+
 - main repository https://github.com/CEsarABC/Wproject
 
-- the inplementation of github pages was just posible by creating a new repository and uploading the project files.
+- git hub pages was implemented successfully.
 
-* https://cesarabc.github.io/Wproject/index.html project visualization from a new repository.
+* https://cesarabc.github.io/Wproject/index.html project visualization.
 
 
 # Acknowledgements
@@ -76,6 +79,10 @@ thanks to the code institute for giving me the opportunity to learn.
 thanks to my tutor Victor Miclovichfor the support and the guide
 
 the code it's been writen taking examples from different internet tutorials and using mostly as guide the code academy exercises for my development.
+
+blocks of code were taking from my code academy exercises on Data Visualization, adapted to my development. the main reason for this was that when trying to write the code, the graphs were not working when tested, so I decided to copy the working blocks of code and adapt them for my work. the problem is not to have a framework to code the D3 and DC graphs in order to be corrected, the way the coding in DC and D3 works is different to the programing languages I've been working on.
+
+
 
 
 
